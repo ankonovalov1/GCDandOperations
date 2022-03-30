@@ -17,6 +17,7 @@
 		12CF055927F4C1F600771718 /* EndpointService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CF055827F4C1F600771718 /* EndpointService.swift */; };
 		12CF055B27F4C2D800771718 /* SWApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CF055A27F4C2D800771718 /* SWApiService.swift */; };
 		12CF055E27F4C61B00771718 /* Heroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CF055D27F4C61B00771718 /* Heroes.swift */; };
+		12CF056127F501A900771718 /* CommonStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CF056027F501A900771718 /* CommonStorage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		12CF055827F4C1F600771718 /* EndpointService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndpointService.swift; sourceTree = "<group>"; };
 		12CF055A27F4C2D800771718 /* SWApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWApiService.swift; sourceTree = "<group>"; };
 		12CF055D27F4C61B00771718 /* Heroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heroes.swift; sourceTree = "<group>"; };
+		12CF056027F501A900771718 /* CommonStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonStorage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 		12CF053E27F4B23300771718 /* ConcurrentCode */ = {
 			isa = PBXGroup;
 			children = (
+				12CF055F27F5014000771718 /* Storages */,
 				12CF055C27F4C5D900771718 /* Models */,
 				12CF055727F4C1B800771718 /* Services */,
 				12CF055627F4C1AA00771718 /* Delegates */,
@@ -109,6 +112,14 @@
 				12CF055D27F4C61B00771718 /* Heroes.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		12CF055F27F5014000771718 /* Storages */ = {
+			isa = PBXGroup;
+			children = (
+				12CF056027F501A900771718 /* CommonStorage.swift */,
+			);
+			path = Storages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,6 +197,7 @@
 				12CF054427F4B23300771718 /* ViewController.swift in Sources */,
 				12CF054027F4B23300771718 /* AppDelegate.swift in Sources */,
 				12CF054227F4B23300771718 /* SceneDelegate.swift in Sources */,
+				12CF056127F501A900771718 /* CommonStorage.swift in Sources */,
 				12CF055927F4C1F600771718 /* EndpointService.swift in Sources */,
 				12CF055427F4B33600771718 /* DetailViewController.swift in Sources */,
 				12CF055E27F4C61B00771718 /* Heroes.swift in Sources */,
