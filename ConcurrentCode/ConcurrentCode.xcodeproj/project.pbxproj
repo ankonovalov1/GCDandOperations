@@ -14,6 +14,9 @@
 		12CF054927F4B23500771718 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12CF054827F4B23500771718 /* Assets.xcassets */; };
 		12CF054C27F4B23500771718 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12CF054A27F4B23500771718 /* LaunchScreen.storyboard */; };
 		12CF055427F4B33600771718 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CF055327F4B33600771718 /* DetailViewController.swift */; };
+		12CF055927F4C1F600771718 /* EndpointService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CF055827F4C1F600771718 /* EndpointService.swift */; };
+		12CF055B27F4C2D800771718 /* SWApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CF055A27F4C2D800771718 /* SWApiService.swift */; };
+		12CF055E27F4C61B00771718 /* Heroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CF055D27F4C61B00771718 /* Heroes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		12CF054B27F4B23500771718 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12CF054D27F4B23500771718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12CF055327F4B33600771718 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		12CF055827F4C1F600771718 /* EndpointService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndpointService.swift; sourceTree = "<group>"; };
+		12CF055A27F4C2D800771718 /* SWApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWApiService.swift; sourceTree = "<group>"; };
+		12CF055D27F4C61B00771718 /* Heroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heroes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +64,51 @@
 		12CF053E27F4B23300771718 /* ConcurrentCode */ = {
 			isa = PBXGroup;
 			children = (
-				12CF053F27F4B23300771718 /* AppDelegate.swift */,
-				12CF054127F4B23300771718 /* SceneDelegate.swift */,
-				12CF054327F4B23300771718 /* ViewController.swift */,
+				12CF055C27F4C5D900771718 /* Models */,
+				12CF055727F4C1B800771718 /* Services */,
+				12CF055627F4C1AA00771718 /* Delegates */,
+				12CF055527F4C19C00771718 /* VC */,
 				12CF054527F4B23300771718 /* Main.storyboard */,
 				12CF054827F4B23500771718 /* Assets.xcassets */,
 				12CF054A27F4B23500771718 /* LaunchScreen.storyboard */,
 				12CF054D27F4B23500771718 /* Info.plist */,
-				12CF055327F4B33600771718 /* DetailViewController.swift */,
 			);
 			path = ConcurrentCode;
+			sourceTree = "<group>";
+		};
+		12CF055527F4C19C00771718 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				12CF054327F4B23300771718 /* ViewController.swift */,
+				12CF055327F4B33600771718 /* DetailViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		12CF055627F4C1AA00771718 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				12CF053F27F4B23300771718 /* AppDelegate.swift */,
+				12CF054127F4B23300771718 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		12CF055727F4C1B800771718 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				12CF055827F4C1F600771718 /* EndpointService.swift */,
+				12CF055A27F4C2D800771718 /* SWApiService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		12CF055C27F4C5D900771718 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				12CF055D27F4C61B00771718 /* Heroes.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +182,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12CF055B27F4C2D800771718 /* SWApiService.swift in Sources */,
 				12CF054427F4B23300771718 /* ViewController.swift in Sources */,
 				12CF054027F4B23300771718 /* AppDelegate.swift in Sources */,
 				12CF054227F4B23300771718 /* SceneDelegate.swift in Sources */,
+				12CF055927F4C1F600771718 /* EndpointService.swift in Sources */,
 				12CF055427F4B33600771718 /* DetailViewController.swift in Sources */,
+				12CF055E27F4C61B00771718 /* Heroes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
